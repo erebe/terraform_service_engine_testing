@@ -6,3 +6,7 @@ resource "null_resource" "hello" {
   }
 }
 
+output "execution_id" {
+  value       = null_resource.hello.id
+  description = "The ID of the resource: null_resource"
+}
