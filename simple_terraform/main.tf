@@ -2,7 +2,7 @@ provider "null" {}
 
 resource "null_resource" "hello" {
   provisioner "local-exec" {
-    command = var.command
+    command = var.command var.command_argument
   }
 }
 

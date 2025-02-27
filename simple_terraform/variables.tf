@@ -1,4 +1,9 @@
 variable "command" {
-  description = "Commande to execute"
+  description = "Command to execute"
+  type        = string
+}
+
+variable "command_argument" {
+  description = "Argument to command"
   type        = string
 }
