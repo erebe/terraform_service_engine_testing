@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "basic_bucket" {
-  bucket        = "qovery-bucket-test-unique-123456"
+  bucket        = "qovery-bucket-test-unique-ffl"
   force_destroy = true
 }
 
