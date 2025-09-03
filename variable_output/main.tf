@@ -4,5 +4,5 @@ output "printed_message" {
   value       = var.content
 }
 resource "time_sleep" "staging_delay" {  
-  create_duration = "2m"
+  create_duration = "30s"
 }
