@@ -3,3 +3,6 @@ output "printed_message" {
   description = "Prints the content of the variable"
   value       = var.content
 }
+resource "time_sleep" "staging_delay" {  
+  create_duration = "2m"
+}
